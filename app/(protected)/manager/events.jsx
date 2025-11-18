@@ -1,0 +1,1 @@
+export { default } from '../../../src/panels/manager/ManagerEvents.jsx';
