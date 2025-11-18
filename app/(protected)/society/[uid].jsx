@@ -1,1 +1,1 @@
-export { default } from '../../../src/pages/SocietyProfile.jsx';
+export { default } from '../../pages/SocietyProfile.jsx';

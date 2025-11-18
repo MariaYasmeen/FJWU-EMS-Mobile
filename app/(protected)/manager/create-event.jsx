@@ -1,1 +1,1 @@
-export { default } from '../../../src/panels/manager/CreateEvent.jsx';
+export { default } from '../../panels/manager/CreateEvent.jsx';

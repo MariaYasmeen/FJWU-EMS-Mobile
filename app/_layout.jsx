@@ -1,7 +1,7 @@
 import { Slot } from 'expo-router';
 import { View, StyleSheet, ScrollView } from 'react-native';
-import { AuthProvider } from '../src/context/AuthContext.jsx';
-import Navbar from '../src/components/Navbar.jsx';
+import { AuthProvider } from './context/AuthContext.jsx';
+import Navbar from './components/Navbar.jsx';
 
 export default function RootLayout() {
   return (

@@ -1,1 +1,1 @@
-export { default } from '../../../src/panels/manager/ManagerAnnouncements.jsx';
+export { default } from '../../panels/manager/ManagerAnnouncements.jsx';

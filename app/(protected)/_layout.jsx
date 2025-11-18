@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import { Slot, useRouter } from 'expo-router';
-import { useAuth } from '../../src/context/AuthContext.jsx';
+import { useAuth } from '../context/AuthContext.jsx';
 
 export default function ProtectedLayout() {
   const { user, loading } = useAuth();

@@ -1,1 +1,1 @@
-export { default } from '../../../src/pages/EventDetail.jsx';
+export { default } from '../../pages/EventDetail.jsx';

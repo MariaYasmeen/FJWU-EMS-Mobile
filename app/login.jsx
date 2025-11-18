@@ -1,1 +1,1 @@
-export { default } from '../src/pages/Login.jsx';
+export { default } from './pages/Login.jsx';

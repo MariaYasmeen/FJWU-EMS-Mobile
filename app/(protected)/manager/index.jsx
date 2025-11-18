@@ -1,1 +1,1 @@
-export { default } from '../../../src/panels/manager/ManagerHome.jsx';
+export { default } from '../../panels/manager/ManagerHome.jsx';

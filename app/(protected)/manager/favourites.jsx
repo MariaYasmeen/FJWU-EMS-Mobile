@@ -1,1 +1,1 @@
-export { default } from '../../../src/panels/manager/Favourites.jsx';
+export { default } from '../../panels/manager/Favourites.jsx';

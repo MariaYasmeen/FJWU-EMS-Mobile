@@ -1,1 +1,1 @@
-export { default } from '../../../src/panels/student/StudentCommunity.jsx';
+export { default } from '../../panels/student/StudentCommunity.jsx';
