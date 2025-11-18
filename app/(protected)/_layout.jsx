@@ -1,8 +1,7 @@
 import { useEffect } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import { Slot, useRouter } from 'expo-router';
 import { useAuth } from '../../src/context/AuthContext.jsx';
-import Navbar from '../../src/components/Navbar.jsx';
 
 export default function ProtectedLayout() {
   const { user, loading } = useAuth();
@@ -19,10 +18,11 @@ export default function ProtectedLayout() {
 
   return (
     <View style={styles.container}>
-      <Navbar />
-      <View style={styles.main}>
-        <Slot />
-      </View>
+      <ScrollView contentContainerStyle={styles.scrollContent}>
+        <View style={styles.main}>
+          <Slot />
+        </View>
+      </ScrollView>
     </View>
   );
 }
@@ -30,5 +30,6 @@ export default function ProtectedLayout() {
 const styles = StyleSheet.create({
   container: { flex: 1 },
   main: { flex: 1 },
+  scrollContent: { flexGrow: 1 },
   center: { flex: 1, alignItems: 'center', justifyContent: 'center' }
 });
